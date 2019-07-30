@@ -575,6 +575,7 @@ namespace TFTDisplay {
             for (let indexX = width; indexX > 0; indexX--) {
                 pins.spiWrite(hiColour)
                 pins.spiWrite(loColour)
+                basic.pause(10)
             }
         }
 
