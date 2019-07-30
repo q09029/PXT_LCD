@@ -579,7 +579,6 @@ namespace TFTDisplay {
         }
 
         pins.digitalWritePin(CS, 1) // de-elect the TFT as SPI target
-        pins.digitalWritePin(DC, 0) // command/data = command
     }
 
     /**
@@ -619,7 +618,6 @@ namespace TFTDisplay {
         }
 
         pins.digitalWritePin(CS, 1) // de-elect the TFT as SPI target
-        pins.digitalWritePin(DC, 0) // command/data = command
     }
 
 
